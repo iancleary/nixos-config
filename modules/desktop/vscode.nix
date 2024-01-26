@@ -25,10 +25,52 @@ in
   environment.systemPackages = with pkgs; [
   (vscode-with-extensions.override {
     vscodeExtensions = with vscode-extensions; [
-      bbenoist.nix
+      EditorConfig.EditorConfig
+      esbenp.prettier-vscode
+      firefox-devtools.vscode-firefox-debug
+      GitHub.copilot
+      GitHub.copilot-chat
+      github.vscode-github-actions
+      GrapeCity.gc-excelviewer
+      Graphite.gti-vscode
+      # jetpack-io.devbox
+      KevinRose.vsc-python-indent
+      mechatroner.rainbow-csv
+      mgmcdermott.vscode-language-babel
+      ms-python.black-formatter
+      ms-python.debugpy
+      ms-python.isort
       ms-python.python
-      ms-azuretools.vscode-docker
+      ms-python.vscode-pylance
+      ms-toolsai.jupyter
+      ms-toolsai.jupyter-keymap
+      ms-toolsai.jupyter-renderers
+      ms-toolsai.vscode-jupyter-cell-tags
+      ms-toolsai.vscode-jupyter-slideshow
+      ms-vscode-remote.remote-containers
       ms-vscode-remote.remote-ssh
+      ms-vscode-remote.remote-ssh-edit
+      # ms-vscode-remote.remote-wsl
+      ms-vscode.makefile-tools
+      ms-vscode.remote-explorer
+      naumovs.color-highlight
+      pflannery.vscode-versionlens
+      qwtel.sqlite-viewer
+      redhat.vscode-yaml
+      rust-lang.rust-analyzer
+      samuelcolvin.jinjahtml
+      serayuzgur.crates
+      SimonSiefke.svg-preview
+      skellock.just
+      streetsidesoftware.code-spell-checker
+      stuart.unique-window-colors
+      Tailscale.vscode-tailscale
+      thegtproject.hoverhex
+      tomoki1207.pdf
+      unifiedjs.vscode-mdx
+      vadimcn.vscode-lldb
+
+
     ];
     # ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     #   {
