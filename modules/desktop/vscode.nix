@@ -18,7 +18,7 @@ in
     # Setting "window.titleBarStyle" = "custom";works for me as a workaround.
     # ^ Ran `env -u WAYLAND_DISPLAY code .` once, then updated the settings via Preferences,
     #   then no longer need `env -u ...`
-    pkgs-unstable.vscode-fhs # vscode with FHS (File Hierarchy System) layout
-    # pkgs.vscode-fhs # vscode with FHS (File Hierarchy System) layout
+    # pkgs-unstable.vscode-fhs # vscode with FHS (File Hierarchy System) layout
+    pkgs.vscode-fhs # vscode with FHS (File Hierarchy System) layout
   ];
 }
