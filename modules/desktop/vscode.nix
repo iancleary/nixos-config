@@ -29,43 +29,43 @@ in
       esbenp.prettier-vscode
       firefox-devtools.vscode-firefox-debug
       github.copilot
-      github.copilot-chat
+      # github.copilot-chat
       github.vscode-github-actions
-      graphite.gti-vscode
-      kevinrose.vsc-python-indent
-      mechatroner.rainbow-csv
-      mgmcdermott.vscode-language-babel
-      ms-python.black-formatter
-      ms-python.debugpy
-      ms-python.isort
-      ms-python.python
-      ms-python.vscode-pylance
-      ms-toolsai.jupyter
-      ms-toolsai.jupyter-keymap
-      ms-toolsai.jupyter-renderers
-      ms-toolsai.vscode-jupyter-cell-tags
-      ms-toolsai.vscode-jupyter-slideshow
-      ms-vscode-remote.remote-containers
-      ms-vscode-remote.remote-ssh
-      ms-vscode-remote.remote-ssh-edit
-      ms-vscode.makefile-tools
-      ms-vscode.remote-explorer
-      naumovs.color-highlight
-      pflannery.vscode-versionlens
-      qwtel.sqlite-viewer
-      redhat.vscode-yaml
-      rust-lang.rust-analyzer
-      samuelcolvin.jinjahtml
-      serayuzgur.crates
-      simonsiefke.svg-preview
-      skellock.just
-      streetsidesoftware.code-spell-checker
-      stuart.unique-window-colors
-      tailscale.vscode-tailscale
-      thegtproject.hoverhex
-      tomoki1207.pdf
-      unifiedjs.vscode-mdx
-      vadimcn.vscode-lldb
+      # graphite.gti-vscode
+      # kevinrose.vsc-python-indent
+      # mechatroner.rainbow-csv
+      # mgmcdermott.vscode-language-babel
+      # ms-python.black-formatter
+      # ms-python.debugpy
+      # ms-python.isort
+      # ms-python.python
+      # ms-python.vscode-pylance
+      # ms-toolsai.jupyter
+      # ms-toolsai.jupyter-keymap
+      # ms-toolsai.jupyter-renderers
+      # ms-toolsai.vscode-jupyter-cell-tags
+      # ms-toolsai.vscode-jupyter-slideshow
+      # ms-vscode-remote.remote-containers
+      # ms-vscode-remote.remote-ssh
+      # ms-vscode-remote.remote-ssh-edit
+      # ms-vscode.makefile-tools
+      # ms-vscode.remote-explorer
+      # naumovs.color-highlight
+      # pflannery.vscode-versionlens
+      # qwtel.sqlite-viewer
+      # redhat.vscode-yaml
+      # rust-lang.rust-analyzer
+      # samuelcolvin.jinjahtml
+      # serayuzgur.crates
+      # simonsiefke.svg-preview
+      # skellock.just
+      # streetsidesoftware.code-spell-checker
+      # stuart.unique-window-colors
+      # tailscale.vscode-tailscale
+      # thegtproject.hoverhex
+      # tomoki1207.pdf
+      # unifiedjs.vscode-mdx
+      # vadimcn.vscode-lldb
     ];
 
     # grapecity.gc-excelviewer
