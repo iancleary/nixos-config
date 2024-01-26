@@ -23,51 +23,52 @@ in
   # ];
 
   environment.systemPackages = with pkgs; [
-  (vscode-with-extensions.override {
-    vscodeExtensions = with vscode-extensions; [
-      bbenoist.nix
-      editorconfig.editorconfig
-      esbenp.prettier-vscode
-      firefox-devtools.vscode-firefox-debug
-      github.copilot
-      # github.copilot-chat
-      github.vscode-github-actions
-      # kevinrose.vsc-python-indent
-      mechatroner.rainbow-csv
-      mgmcdermott.vscode-language-babel
-      ms-python.black-formatter
-      ms-python.debugpy
-      ms-python.isort
-      ms-python.python
-      ms-python.vscode-pylance
-      ms-vscode-remote.remote-containers
-      ms-vscode-remote.remote-ssh
-      ms-vscode-remote.remote-ssh-edit
-      ms-vscode.makefile-tools
-      ms-vscode.remote-explorer
-      naumovs.color-highlight
-      pflannery.vscode-versionlens
-      qwtel.sqlite-viewer
-      redhat.vscode-yaml
-      rust-lang.rust-analyzer
-      samuelcolvin.jinjahtml
-      serayuzgur.crates
-      simonsiefke.svg-preview
-      skellock.just
-      streetsidesoftware.code-spell-checker
-      stuart.unique-window-colors
-      tailscale.vscode-tailscale
-      thegtproject.hoverhex
-      tomoki1207.pdf
-      unifiedjs.vscode-mdx
-      vadimcn.vscode-lldb
-    ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
-      {
-        publisher = "Graphite.";
-        name = "gti-vscode";
-        version = "0.5.2";
-        sha256 = "sha256-o9CIjMlYQQVRdtTlOp9BAVjqrfFIhhdvzlyhlcOv5rY=";
-      }
-    ];
-  })
-];
+    (vscode-with-extensions.override {
+      vscodeExtensions = with vscode-extensions; [
+        bbenoist.nix
+        editorconfig.editorconfig
+        esbenp.prettier-vscode
+        firefox-devtools.vscode-firefox-debug
+        github.copilot
+        # github.copilot-chat
+        github.vscode-github-actions
+        # kevinrose.vsc-python-indent
+        mechatroner.rainbow-csv
+        mgmcdermott.vscode-language-babel
+        ms-python.black-formatter
+        ms-python.debugpy
+        ms-python.isort
+        ms-python.python
+        ms-python.vscode-pylance
+        ms-vscode-remote.remote-containers
+        ms-vscode-remote.remote-ssh
+        ms-vscode-remote.remote-ssh-edit
+        ms-vscode.makefile-tools
+        ms-vscode.remote-explorer
+        naumovs.color-highlight
+        pflannery.vscode-versionlens
+        qwtel.sqlite-viewer
+        redhat.vscode-yaml
+        rust-lang.rust-analyzer
+        samuelcolvin.jinjahtml
+        serayuzgur.crates
+        simonsiefke.svg-preview
+        skellock.just
+        streetsidesoftware.code-spell-checker
+        stuart.unique-window-colors
+        tailscale.vscode-tailscale
+        thegtproject.hoverhex
+        tomoki1207.pdf
+        unifiedjs.vscode-mdx
+        vadimcn.vscode-lldb
+      ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+        {
+          publisher = "Graphite.";
+          name = "gti-vscode";
+          version = "0.5.2";
+          sha256 = "sha256-o9CIjMlYQQVRdtTlOp9BAVjqrfFIhhdvzlyhlcOv5rY=";
+        }
+      ];
+    })
+  ];
+}
