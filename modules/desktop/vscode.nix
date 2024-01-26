@@ -61,7 +61,7 @@ in
       tomoki1207.pdf
       unifiedjs.vscode-mdx
       vadimcn.vscode-lldb
-    ] ++ graphite.gti-vscode = pkgs.vscode-utils.extensionFromVscodeMarketplace [
+    ] ++ pkgs.vscode-utils.extensionFromVscodeMarketplace [
       {
         # This is super barebones, but at least it got highligts for headlines:
         # https://marketplace.visualstudio.com/items?itemName=vscode-org-mode.org-mode
