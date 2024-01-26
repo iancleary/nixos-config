@@ -34,7 +34,7 @@ in
         github.vscode-github-actions
         # kevinrose.vsc-python-indent
         mechatroner.rainbow-csv
-        mgmcdermott.vscode-language-babel
+        # mgmcdermott.vscode-language-babel
         ms-python.black-formatter
         ms-python.debugpy
         ms-python.isort
