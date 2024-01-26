@@ -61,7 +61,7 @@ in
       tomoki1207.pdf
       unifiedjs.vscode-mdx
       vadimcn.vscode-lldb
-    ] +++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+    ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
       {
         publisher = "Graphite.";
         name = "gti-vscode";
