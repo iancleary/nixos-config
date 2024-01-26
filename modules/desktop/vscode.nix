@@ -32,15 +32,6 @@ in
       github.copilot
       # github.copilot-chat
       github.vscode-github-actions
-      graphite.gti-vscode = pkgs.vscode-utils.extensionFromVscodeMarketplace {
-      # This is super barebones, but at least it got highligts for headlines:
-      # https://marketplace.visualstudio.com/items?itemName=vscode-org-mode.org-mode
-      publisher = "Graphite.";
-      name = "gti-vscode";
-      version = "0.5.2";
-      sha256 = "sha256-o9CIjMlYQQVRdtTlOp9BAVjqrfFIhhdvzlyhlcOv5rY=";
-    };
-    
       # kevinrose.vsc-python-indent
       mechatroner.rainbow-csv
       mgmcdermott.vscode-language-babel
@@ -70,7 +61,16 @@ in
       tomoki1207.pdf
       unifiedjs.vscode-mdx
       vadimcn.vscode-lldb
-    ];
+    ] ++ graphite.gti-vscode = pkgs.vscode-utils.extensionFromVscodeMarketplace [
+      {
+        # This is super barebones, but at least it got highligts for headlines:
+        # https://marketplace.visualstudio.com/items?itemName=vscode-org-mode.org-mode
+        publisher = "Graphite.";
+        name = "gti-vscode";
+        version = "0.5.2";
+        sha256 = "sha256-o9CIjMlYQQVRdtTlOp9BAVjqrfFIhhdvzlyhlcOv5rY=";
+      };
+    ] 
 
     # grapecity.gc-excelviewer
     # ms-vscode-remote.remote-ssh-edit
