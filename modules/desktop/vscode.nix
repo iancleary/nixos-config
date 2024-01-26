@@ -25,16 +25,16 @@ in
   environment.systemPackages = with pkgs; [
   (vscode-with-extensions.override {
     vscodeExtensions = with vscode-extensions; [
-      EditorConfig.EditorConfig
+      editorconfig.editorconfig
       esbenp.prettier-vscode
       firefox-devtools.vscode-firefox-debug
-      GitHub.copilot
-      GitHub.copilot-chat
+      github.copilot
+      github.copilot-chat
       github.vscode-github-actions
-      GrapeCity.gc-excelviewer
-      Graphite.gti-vscode
+      grapecity.gc-excelviewer
+      graphite.gti-vscode
       # jetpack-io.devbox
-      KevinRose.vsc-python-indent
+      kevinrose.vsc-python-indent
       mechatroner.rainbow-csv
       mgmcdermott.vscode-language-babel
       ms-python.black-formatter
@@ -60,17 +60,15 @@ in
       rust-lang.rust-analyzer
       samuelcolvin.jinjahtml
       serayuzgur.crates
-      SimonSiefke.svg-preview
+      simonsiefke.svg-preview
       skellock.just
       streetsidesoftware.code-spell-checker
       stuart.unique-window-colors
-      Tailscale.vscode-tailscale
+      tailscale.vscode-tailscale
       thegtproject.hoverhex
       tomoki1207.pdf
       unifiedjs.vscode-mdx
       vadimcn.vscode-lldb
-
-
     ];
     # ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     #   {
