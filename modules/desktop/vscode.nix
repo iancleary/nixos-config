@@ -66,7 +66,7 @@ in
           publisher = "Graphite";
           name = "gti-vscode";
           version = "0.5.2";
-          sha256 = "sha256-o9CIjMlYQQVRdtTlOp9BAVjqrfFIhhdvzlyhlcOv5rY=";
+          sha256 = "sha256-IvXN0KhpZtqqyKrjtqcAQK31RLyPm+ZwwUcwAwtDMak=";
         }
       ];
     })
