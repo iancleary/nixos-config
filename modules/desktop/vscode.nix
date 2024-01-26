@@ -29,7 +29,7 @@ in
       ms-python.python
       ms-azuretools.vscode-docker
       ms-vscode-remote.remote-ssh
-    ]
+    ];
     # ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     #   {
     #     name = "remote-ssh-edit";
