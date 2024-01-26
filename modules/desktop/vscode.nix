@@ -12,13 +12,32 @@ let
   };
 in
 {
-  environment.systemPackages = [
+  # environment.systemPackages = [
     # https://github.com/NixOS/nixpkgs/issues/246509
     # env -u WAYLAND_DISPLAY code .
     # Setting "window.titleBarStyle" = "custom";works for me as a workaround.
     # ^ Ran `env -u WAYLAND_DISPLAY code .` once, then updated the settings via Preferences,
     #   then no longer need `env -u ...`
     # pkgs-unstable.vscode-fhs # vscode with FHS (File Hierarchy System) layout
-    pkgs.vscode-fhs # vscode with FHS (File Hierarchy System) layout
-  ];
+    # pkgs.vscode-fhs # vscode with FHS (File Hierarchy System) layout
+  # ];
+
+  environment.systemPackages = with pkgs; [
+  (vscode-with-extensions.override {
+    vscodeExtensions = with vscode-extensions; [
+      bbenoist.nix
+      ms-python.python
+      ms-azuretools.vscode-docker
+      ms-vscode-remote.remote-ssh
+    ]
+    # ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+    #   {
+    #     name = "remote-ssh-edit";
+    #     publisher = "ms-vscode-remote";
+    #     version = "0.47.2";
+    #     sha256 = "1hp6gjh4xp2m1xlm1jsdzxw9d8frkiidhph6nvl24d0h8z34w49g";
+    #   }
+    # ];
+  })
+];
 }
