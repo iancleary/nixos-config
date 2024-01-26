@@ -70,5 +70,9 @@ in
         }
       ];
     })
+
+    # back to system packages
+
+    graphite-cli
   ];
 }
