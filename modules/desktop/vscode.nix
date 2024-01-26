@@ -32,7 +32,7 @@ in
       github.copilot
       # github.copilot-chat
       github.vscode-github-actions
-      # graphite.gti-vscode
+      graphite.gti-vscode
       # kevinrose.vsc-python-indent
       # mechatroner.rainbow-csv
       # mgmcdermott.vscode-language-babel
