@@ -33,7 +33,6 @@ in
       github.vscode-github-actions
       grapecity.gc-excelviewer
       graphite.gti-vscode
-      # jetpack-io.devbox
       kevinrose.vsc-python-indent
       mechatroner.rainbow-csv
       mgmcdermott.vscode-language-babel
@@ -50,7 +49,6 @@ in
       ms-vscode-remote.remote-containers
       ms-vscode-remote.remote-ssh
       ms-vscode-remote.remote-ssh-edit
-      # ms-vscode-remote.remote-wsl
       ms-vscode.makefile-tools
       ms-vscode.remote-explorer
       naumovs.color-highlight
@@ -70,6 +68,8 @@ in
       unifiedjs.vscode-mdx
       vadimcn.vscode-lldb
     ];
+
+    # ms-vscode-remote.remote-ssh-edit
     # ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     #   {
     #     name = "remote-ssh-edit";
