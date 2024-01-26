@@ -25,6 +25,7 @@ in
   environment.systemPackages = with pkgs; [
   (vscode-with-extensions.override {
     vscodeExtensions = with vscode-extensions; [
+      bbenoist.nix
       editorconfig.editorconfig
       esbenp.prettier-vscode
       firefox-devtools.vscode-firefox-debug
@@ -40,11 +41,6 @@ in
       # ms-python.isort
       # ms-python.python
       # ms-python.vscode-pylance
-      # ms-toolsai.jupyter
-      # ms-toolsai.jupyter-keymap
-      # ms-toolsai.jupyter-renderers
-      # ms-toolsai.vscode-jupyter-cell-tags
-      # ms-toolsai.vscode-jupyter-slideshow
       # ms-vscode-remote.remote-containers
       # ms-vscode-remote.remote-ssh
       # ms-vscode-remote.remote-ssh-edit
