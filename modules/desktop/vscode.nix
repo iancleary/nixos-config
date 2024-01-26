@@ -31,7 +31,6 @@ in
       github.copilot
       github.copilot-chat
       github.vscode-github-actions
-      grapecity.gc-excelviewer
       graphite.gti-vscode
       kevinrose.vsc-python-indent
       mechatroner.rainbow-csv
@@ -69,6 +68,7 @@ in
       vadimcn.vscode-lldb
     ];
 
+    # grapecity.gc-excelviewer
     # ms-vscode-remote.remote-ssh-edit
     # ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     #   {
