@@ -61,27 +61,13 @@ in
       tomoki1207.pdf
       unifiedjs.vscode-mdx
       vadimcn.vscode-lldb
-    ] ++ pkgs.vscode-utils.extensionFromVscodeMarketplace [
+    ] +++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
       {
-        # This is super barebones, but at least it got highligts for headlines:
-        # https://marketplace.visualstudio.com/items?itemName=vscode-org-mode.org-mode
         publisher = "Graphite.";
         name = "gti-vscode";
         version = "0.5.2";
         sha256 = "sha256-o9CIjMlYQQVRdtTlOp9BAVjqrfFIhhdvzlyhlcOv5rY=";
       }
-    ] ;
-
-    # grapecity.gc-excelviewer
-    # ms-vscode-remote.remote-ssh-edit
-    # ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
-    #   {
-    #     name = "remote-ssh-edit";
-    #     publisher = "ms-vscode-remote";
-    #     version = "0.47.2";
-    #     sha256 = "1hp6gjh4xp2m1xlm1jsdzxw9d8frkiidhph6nvl24d0h8z34w49g";
-    #   }
-    # ];
+    ];
   })
 ];
-}
