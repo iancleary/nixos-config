@@ -73,6 +73,6 @@ in
 
     # back to system packages
 
-    graphite-cli
+    pkgs-unstable.graphite-cli
   ];
 }
