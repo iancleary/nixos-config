@@ -36,6 +36,8 @@ in
   security.pam.services.swaylock = { };
   security.pam.services.swaylock.fprintAuth = false;
 
+  services.blueman.enable = true;
+
   environment.systemPackages = with pkgs; [
     # xdg-desktop-portal-hyprland # display portal for hyprland, required
     hyprpaper # wallpaper utility
@@ -44,6 +46,11 @@ in
     kitty # terminal emulator
     waybar # wayland bar
     wofi # app launcher
+
+    # waybar applets
+    networkmanagerapplet # nm-applet --indicator &
+    blueman # blueman-applet
+    udiskie # removable media/disk mounting
 
     polkit_gnome # polkit agent for GNOME
     gnome.seahorse # keyring manager GUI

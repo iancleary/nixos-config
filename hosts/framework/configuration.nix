@@ -8,9 +8,6 @@
   # Define your hostname.
   networking.hostName = "framework";
 
-  # ZFS
-  networking.hostId = "8425e349";
-
   # testing fwupd on framework 11th gen intel
   # https://knowledgebase.frame.work/en_us/framework-laptop-bios-releases-S1dMQt6F#Linux_BIOS
   # https://nixos.wiki/wiki/Fwupd
