@@ -12,6 +12,7 @@ in
     ./tailscale.nix
     ./user.nix
     ./virt.nix
+    ./hyprland
   ];
 
   options.mySystem = with lib; { };

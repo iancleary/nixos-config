@@ -15,13 +15,14 @@
 
   mySystem = {
     gnome.enable = false;
-    kde.enable = true;
+    kde.enable = false;
+    hyprland.enable = true;
     gaming.enable = true;
     tailscale = {
       enable = true;
       unstable = true;
     };
-    vmHost = true;
+    vmHost = false;
     dockerHost = true;
     home-manager = {
       enable = true;

@@ -26,6 +26,9 @@ in
         gnomeExtensions.gsconnect
         gnomeExtensions.tray-icons-reloaded
       ];
+      variables = {
+        NIXOS_OZONE_WL=1;
+      };
       gnome.excludePackages = with pkgs.gnome; [
         cheese # webcam tool
         epiphany # web browser

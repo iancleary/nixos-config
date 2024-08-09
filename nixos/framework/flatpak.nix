@@ -19,6 +19,10 @@
       # "ca.desrt.dconf-editor"
       "md.obsidian.Obsidian"
       "com.bitwarden.desktop"
+
+      # Todoist
+      # "com.todoist.Todoist" # electron, no thanks
+      "io.github.alainm23.planify"
     ];
     update.auto = {
       enable = true;
